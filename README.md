@@ -1,12 +1,21 @@
 <!-- Entrega final Franco Piana proyecto ecommerce  -->
 
-apiKey: "AIzaSyAd4JSf_rwLi9R69Bhvdf4tCR4dcIhpmOw",
-  authDomain: "piana-ecommer.firebaseapp.com",
-  projectId: "piana-ecommer",
-  storageBucket: "piana-ecommer.appspot.com",
-  messagingSenderId: "954792241676",
-  appId: "1:954792241676:web:4291bf4f9fb9fa4c8b5c29"
+Link del Repo: https://coderreact.vercel.app/
 
+<!-- Dependencias -->
+
+fortawesome/fontawesome-svg-core: "6.4.2" Librería de íconos
+fortawesome/free-brands-svg-icons: "6.4.2" Librería de íconos
+fortawesome/react-fontawesome: "0.2.0" Librería de íconos
+fortawesome/free-solid-svg-icons: "6.4.2" Librería de íconos
+react-icons/all-files: "4.1.0" Ícono usado en la página
+bootstrap: "5.3.2" Framework de estilos frontend
+firebase: "10.6.0" Base de datos
+react-bootstrap: "2.9.1" Bootstrap pero en react para simplificar la interfaz
+react-fontawesome: "1.7.1" Biblioteca de íconos
+react-hook-form: "7.48.2" Biblioteca que ayuda la creación de formularios
+react-icons: "4.11.0" Biblioteca de íconos
+react-router-dom: "6.18.0" Simplificación de navegación
 
 <!-- Qué hace mi aplicación? -->
 
