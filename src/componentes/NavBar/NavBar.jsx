@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="logo">
-        <img src={process.env.PUBLIC_URL + "/media/img/logo.png"} width={80} height={80} alt="Logo"></img>
+        <img src="../../media/img/logo.png" width={80} height={80}></img>
       </Link>
       <Link className="titulonav" to="/">
         AFA Shop
