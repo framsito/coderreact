@@ -27,6 +27,11 @@ export const CartProvider = ({ children }) => {
     setCarrito(nuevoCarrito);
   };
 
+  const eliminarItem = (id) => {
+    const nuevoCarrito = carrito.filter((producto) => producto.id !== id);
+    setCarrito(nuevoCarrito);
+  };
+
   const cantidadEnCarrito = () => {
     return carrito.reduce((acc, prod) => acc + prod.cantidad, 0);
   };
@@ -48,6 +53,7 @@ export const CartProvider = ({ children }) => {
       value={{
         carrito,
         agregarAlCarrito,
+        eliminarItem,
         cantidadEnCarrito,
         precioTotal,
         vaciarCarrito,

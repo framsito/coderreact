@@ -234,6 +234,12 @@ button:focus-visible {
   font-weight: bold;
 }
 
+.red {
+
+  background-color: red;
+  color: white;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
